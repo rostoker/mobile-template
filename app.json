@@ -1,6 +1,9 @@
 {
   "expo": {
     "name": "CodeTheChange",
+    "androidStatusBar": {
+      "backgroundColor": "#000000"
+    },
     "slug": "codethechange",
     "privacy": "public",
     "sdkVersion": "35.0.0",
