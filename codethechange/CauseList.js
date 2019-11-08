@@ -7,14 +7,7 @@ import { Text } from 'react-native';
 // @link https://docs.nativebase.io
 import { List, ListItem } from 'native-base';
 
-// AWS Amplify Imports
-// @link https://aws-amplify.github.io/docs/js/start
-import config from '../aws-exports'
-import API, { graphqlOperation } from '@aws-amplify/api'
-import PubSub from '@aws-amplify/pubsub';
-
 // Our GraphQL Imports.
-import { listCauses } from '../src/graphql/queries'
 import Cause from './Cause';
 
 
@@ -26,15 +19,26 @@ export default class CauseList extends Component {
       causes: [
         {
           id: 1,
-          name: "One",
-          description: "Thing"
-        }
+          name: "YWCA",
+          description: "A website to promote a new content package."
+        },
+        {
+          id: 1,
+          name: "Immigrant Services",
+          description: "Verification of educational credentials."
+        },
+        {
+          id: 1,
+          name: "Mindfuel",
+          description: "Effectively share impact in real time."
+        },
+        {
+          id: 1,
+          name: "Propellus",
+          description: "Connecting volunteers with opportunities."
+        },
       ]
     }
-
-    // Configure Amplify.
-    API.configure(config);
-    PubSub.configure(config);
   }
   
   render() {

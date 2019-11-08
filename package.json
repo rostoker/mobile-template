@@ -8,8 +8,6 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "@aws-amplify/api": "^1.2.4",
-    "@aws-amplify/pubsub": "^1.2.4",
     "expo": "^35.0.0",
     "expo-font": "~7.0.0",
     "native-base": "^2.13.8",
