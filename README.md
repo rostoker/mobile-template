@@ -22,3 +22,7 @@ A mobile template for getting started!
 - `yarn start`
 - Scan the QR code from the expo app on your Android phone, or the Camera app from your iPhone
 Your adventure begins in `App.js`
+
+## So you want a back-end, huh?
+- Setting up AWS Amplify is very easy, follow the docs here:
+-- https://aws-amplify.github.io/docs/js/start
