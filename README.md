@@ -35,3 +35,12 @@ Your adventure begins in `App.js`
 ## So you want a back-end, huh?
 - Setting up AWS Amplify is very easy, follow the docs here:
 -- https://aws-amplify.github.io/docs/js/start
+
+## Awesome Docs
+- ReactJs: https://reactjs.org/docs/getting-started.html
+- React Native: https://facebook.github.io/react-native/docs/getting-started
+- Native Base: https://docs.nativebase.io/
+- AWS Amplify: https://aws-amplify.github.io/docs/js/start?platform=react-native
+- FireBase: https://firebase.google.com/docs/
+- Uncle Bob's Clean Architecture: https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
+
