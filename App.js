@@ -21,19 +21,22 @@ import { Ionicons } from '@expo/vector-icons';
 import CauseList from './codethechange/CauseList';
 import CodeTheChangeHeader from './codethechange/CodeTheChangeHeader'
 
+import MyButton from './Button';
+
+
 /**
  * The main application.
- * 
+ *
  * This is the starting place for the application, it should be kept relatively simple
  * given that it's the most 'global' component of the app.
  */
 export default class App extends React.Component {
   /**
    * Constructs the App class.
-   * 
+   *
    * Sets the default state.
-   * 
-   * @param {*} props 
+   *
+   * @param {*} props
    */
   constructor(props) {
     super(props);
@@ -44,7 +47,7 @@ export default class App extends React.Component {
 
   /**
    * A lifecycle hook for when the component has mounted into the UI.
-   * 
+   *
    * @link https://reactjs.org/docs/react-component.html#the-component-lifecycle
    */
   async componentDidMount() {
@@ -69,6 +72,7 @@ export default class App extends React.Component {
         <CodeTheChangeHeader />
         <Content>
           <CauseList />
+          <MyButton />
         </Content>
       </Container>
     );
